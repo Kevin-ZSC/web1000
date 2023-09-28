@@ -1,0 +1,56 @@
+body{
+    box-sizing: border-box;
+    background-image: url("https://img.freepik.com/free-vector/vector-polka-background-with-small-dots_1017-13972.jpg?w=1380&t=st=1695921450~exp=1695922050~hmac=cf64a9ea85a744e131bcea1d757c42f52f0df87c426c87eb9caf00b6289da46c");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.alt {
+    background-color: white;
+    width:600px;
+    height: 100%vh;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    background-color: bisque;
+}
+h2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(237, 232, 232);
+    height: 50px;
+}
+img {
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius: 20%;
+    float:left;
+    margin:15px;
+
+}
+.box{
+    display: flex;
+}
+.a {
+    display: block;
+}
+.b{
+   display: flex;
+   justify-content: center;
+}
+button {
+    background-color: black;
+    color: aqua;
+    padding: 5px 20px;
+    border-radius: 25%;
+}
